@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"3 en ratlla",
+  "%Name":"3_en_ratlla",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -32,17 +32,27 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"3 en ratlla",
+  "name":"3_en_ratlla",
   "resources":[
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
+    {"id":{"name":"cell2Object","path":"objects/cell2Object/cell2Object.yy",},},
+    {"id":{"name":"cell3Object","path":"objects/cell3Object/cell3Object.yy",},},
+    {"id":{"name":"cell4Object","path":"objects/cell4Object/cell4Object.yy",},},
+    {"id":{"name":"cell5Object","path":"objects/cell5Object/cell5Object.yy",},},
+    {"id":{"name":"cell6Object","path":"objects/cell6Object/cell6Object.yy",},},
+    {"id":{"name":"cell7Object","path":"objects/cell7Object/cell7Object.yy",},},
+    {"id":{"name":"cell8Object","path":"objects/cell8Object/cell8Object.yy",},},
+    {"id":{"name":"cell9Object","path":"objects/cell9Object/cell9Object.yy",},},
+    {"id":{"name":"cellObject","path":"objects/cellObject/cellObject.yy",},},
+    {"id":{"name":"GameController","path":"objects/GameController/GameController.yy",},},
+    {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
+    {"id":{"name":"emptySprite","path":"sprites/emptySprite/emptySprite.yy",},},
+    {"id":{"name":"oSprite","path":"sprites/oSprite/oSprite.yy",},},
+    {"id":{"name":"xSprite","path":"sprites/xSprite/xSprite.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
