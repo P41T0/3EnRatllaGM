@@ -1,5 +1,5 @@
 firstPaint = true
 valueChanged = false
-xposition = 1
-yposition = 2
+xposition = 0
+yposition = 1
 cell_state = 0
