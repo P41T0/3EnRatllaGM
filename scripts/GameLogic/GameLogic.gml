@@ -1,14 +1,14 @@
 
 function check_winner(player) {
 	for (var i = 0; i < 3; i++) {
-	    if ((global.arrayPosition[i][0] == player && global.arrayPosition[i][1] == player && global.arrayPosition[i][2] == player) ||
-	        (global.arrayPosition[0][i] == player && global.arrayPosition[1][i] == player && global.arrayPosition[2][i] == player)) {
+	    if ((global.gameArrayPosition[i][0] == player && global.gameArrayPosition[i][1] == player && global.gameArrayPosition[i][2] == player) ||
+	        (global.gameArrayPosition[0][i] == player && global.gameArrayPosition[1][i] == player && global.gameArrayPosition[2][i] == player)) {
 	        return true;
 	    }
 	}
 
-	if ((global.arrayPosition[0][0] == player && global.arrayPosition[1][1] == player && global.arrayPosition[2][2] == player) ||
-	    (global.arrayPosition[0][2] == player && global.arrayPosition[1][1] == player && global.arrayPosition[2][0] == player)) {
+	if ((global.gameArrayPosition[0][0] == player && global.gameArrayPosition[1][1] == player && global.gameArrayPosition[2][2] == player) ||
+	    (global.gameArrayPosition[0][2] == player && global.gameArrayPosition[1][1] == player && global.gameArrayPosition[2][0] == player)) {
 	    return true;
 	}
 
