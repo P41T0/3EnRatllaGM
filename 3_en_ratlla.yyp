@@ -45,6 +45,7 @@
     {"id":{"name":"cellObject","path":"objects/cellObject/cellObject.yy",},},
     {"id":{"name":"GameController","path":"objects/GameController/GameController.yy",},},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
+    {"id":{"name":"GameLogic","path":"scripts/GameLogic/GameLogic.yy",},},
     {"id":{"name":"emptySprite","path":"sprites/emptySprite/emptySprite.yy",},},
     {"id":{"name":"oSprite","path":"sprites/oSprite/oSprite.yy",},},
     {"id":{"name":"xSprite","path":"sprites/xSprite/xSprite.yy",},},

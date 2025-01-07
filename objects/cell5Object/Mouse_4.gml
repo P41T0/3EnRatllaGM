@@ -9,3 +9,7 @@ if (cell_state == 0) {
 	}
 	global.placedObjects += 1
 }
+
+if (check_winner(global.currentPlayer)) {
+    end_game("¡El Jugador " + string(global.currentPlayer) + " ha guanyat!");
+}
