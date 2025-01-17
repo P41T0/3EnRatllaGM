@@ -16,6 +16,21 @@ function check_winner(player) {
 }
 
 
+
+function torn_IA() {
+    // Verifiquem cada posició del tauler
+    for (var i = 0; i < 3; i++) {
+        for (var j = 0; j < 3; j++) {
+            if (global.gameArrayPosition[i][j] == 0) {
+                // Si la casella està buida, la IA posa fitxa
+                global.gameArrayPosition[i][j] = 2; 
+                global.placedObjects++; // Incrementar contador d'objectes
+                return; 
+            }
+        }
+    }
+}
+
 function end_game(message) {
 	global.game_over = true;
 	show_message(message);

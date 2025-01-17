@@ -6,3 +6,5 @@ global.gameArrayPosition[1] = array_create(3, 0)
 global.gameArrayPosition[2] = array_create(3, 0)
 
 global.game_over = false;
+
+
