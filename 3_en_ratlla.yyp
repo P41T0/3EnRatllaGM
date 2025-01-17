@@ -55,6 +55,7 @@
     {"id":{"name":"emptySprite","path":"sprites/emptySprite/emptySprite.yy",},},
     {"id":{"name":"oSprite","path":"sprites/oSprite/oSprite.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
+    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"title","path":"sprites/title/title.yy",},},
     {"id":{"name":"xSprite","path":"sprites/xSprite/xSprite.yy",},},
   ],
